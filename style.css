@@ -1,0 +1,45 @@
+@font-face {
+    font-family: EnbyGertrude;
+    src: url(Enby_Gertrude_roman.woff2);
+}
+@font-face {
+    font-family: Karrik;
+    src: url(BBB_Karrik.woff2);
+}
+
+body {
+    background-color: cyan;
+}
+h1, h2 {
+    font-family: Karrik;
+}
+p {
+    font-family: EnbyGertrude;
+    line-height: 1.35em;
+}
+.photocard>img {
+    width: 128px;
+    height: 96px;
+    object-fit: cover;
+    object-position: center top;
+}
+.photogallery {
+    display: inline-block;
+}
+.photocard {
+    display: inline-block;
+    width: 128px;
+    vertical-align: top;
+}
+.bg {
+    color: #62677f;
+    position: absolute;
+    z-index: 0;
+    font-size: 300%;
+    margin-left: -15%;
+    line-height: 128px;
+    text-align: center;
+    mix-blend-mode: luminosity;
+    letter-spacing: 28px;
+    font-family: "ABC Prophet Variable Unlicensed Trial", "Verdana Pro", sans-serif;
+}
